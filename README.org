@@ -1,0 +1,1 @@
+# simple global minor mode to highlight codetags
