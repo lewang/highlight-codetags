@@ -1,4 +1,18 @@
-;;; le-eager.el ---  lexical-binding: t; -*-
+;;; highlight-codetags.el --- highlight codetags -*- lexical-binding: t; -*-
+
+;; Copyright (C) Le Wang
+
+;; Author: Le Wang
+;; Version: 0.0
+;; Package-Requires: ((emacs "30.1"))
+;; Keywords: matching
+;; URL: https://
+;; SPDX-License-Identifier: GPL-3.0-or-later
+
+;;; Commentary:
+
+
+;;; Code:
 
 
 (provide 'highlight-codetags)
