@@ -25,9 +25,9 @@
 (define-minor-mode highlight-codetags-mode
   "Highlight codetags like TODO, FIXME..."
   :global t
-  (if le-highlight-codetags-mode
-      (font-lock-add-keywords nil le-highlight-codetags-keywords)
-    (font-lock-remove-keywords nil le-highlight-codetags-keywords))
+  (if highlight-codetags-mode
+      (font-lock-add-keywords nil highlight-codetags-keywords)
+    (font-lock-remove-keywords nil highlight-codetags-keywords))
 
   ;; Fontify the current buffer
   (when (bound-and-true-p font-lock-mode)
